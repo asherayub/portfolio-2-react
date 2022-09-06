@@ -3,7 +3,7 @@ import styled from "styled-components";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 function Header() {
-  const [btnToggle, setBtnToggle] = useState(false);
+  const [btnToggle, setBtnToggle] = useState(true);
 
   return (
     <Container>
